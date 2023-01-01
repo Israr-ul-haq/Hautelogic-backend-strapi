@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_footer_footer_informations",
+  "info": {
+    "displayName": "Footer_Information",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "Footer_Address": {
+      "type": "text"
+    },
+    "Footer_Email": {
+      "type": "text"
+    },
+    "Footer_Tel": {
+      "type": "string"
+    },
+    "Footer_Fax": {
+      "type": "string"
+    }
+  }
+}

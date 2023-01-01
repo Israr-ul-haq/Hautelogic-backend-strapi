@@ -1,0 +1,88 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero_SubTitle": {
+      "type": "string"
+    },
+    "Hero_Title": {
+      "type": "text"
+    },
+    "Hero_Button_Text": {
+      "type": "string"
+    },
+    "Hero_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Aboutus_Title": {
+      "type": "string"
+    },
+    "Aboutus_Description": {
+      "type": "richtext"
+    },
+    "Aboutus_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "OurVision_Title": {
+      "type": "string"
+    },
+    "OurVision_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "OurJourney_Title": {
+      "type": "string"
+    },
+    "OurJourney_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "OurJourney_Description": {
+      "type": "richtext"
+    },
+    "OurVision_Description": {
+      "type": "richtext"
+    },
+    "Contact_Section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    }
+  }
+}

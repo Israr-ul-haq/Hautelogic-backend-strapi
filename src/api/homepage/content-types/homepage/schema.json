@@ -1,0 +1,101 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Hero_Title": {
+      "type": "string"
+    },
+    "Hero_SubTitle": {
+      "type": "string"
+    },
+    "Hero_Button_Text": {
+      "type": "string"
+    },
+    "Why_Choose_Us_Title": {
+      "type": "string"
+    },
+    "Why_Choose_Us_Description": {
+      "type": "text"
+    },
+    "Success_Title": {
+      "type": "string"
+    },
+    "Success_Description": {
+      "type": "text"
+    },
+    "Insights_Title": {
+      "type": "string"
+    },
+    "Insights_Description": {
+      "type": "text"
+    },
+    "Contact_Section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer"
+    },
+    "choose_us_sliders": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::choose-us-slider.choose-us-slider"
+    },
+    "home_page_tabs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::home-page-tab.home-page-tab"
+    },
+    "success_stories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::success-story.success-story"
+    },
+    "success_sections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::success-story.success-story"
+    },
+    "POY_Title": {
+      "type": "string"
+    },
+    "POY_SubTitle": {
+      "type": "string"
+    },
+    "POY_Button_Text": {
+      "type": "string"
+    },
+    "POY_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

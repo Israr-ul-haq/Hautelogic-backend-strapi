@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webinars",
+  "info": {
+    "singularName": "webinar",
+    "pluralName": "webinars",
+    "displayName": "Webinar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Bannerprimaryheading": {
+      "type": "text"
+    },
+    "Bannersecondaryheading": {
+      "type": "text"
+    },
+    "BannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Thumbnailimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "PortalId": {
+      "type": "string"
+    },
+    "FormId": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Bannerprimaryheading"
+    },
+    "SeoTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
+    }
+  }
+}

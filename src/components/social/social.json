@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "displayName": "Social",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Facebook_Link": {
+      "type": "string"
+    },
+    "Twitter_Link": {
+      "type": "string"
+    },
+    "Instagram_Link": {
+      "type": "string"
+    },
+    "Linkedin_Link": {
+      "type": "string"
+    }
+  }
+}

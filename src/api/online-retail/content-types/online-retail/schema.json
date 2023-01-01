@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "online_retails",
+  "info": {
+    "singularName": "online-retail",
+    "pluralName": "online-retails",
+    "displayName": "OnlineRetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero_Title": {
+      "type": "string"
+    },
+    "Hero_SubTitle": {
+      "type": "string"
+    },
+    "Hero_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Contact_Section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    }
+  }
+}

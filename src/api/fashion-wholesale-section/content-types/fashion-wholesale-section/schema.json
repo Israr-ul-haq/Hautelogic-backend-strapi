@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fashion_wholesale_sections",
+  "info": {
+    "singularName": "fashion-wholesale-section",
+    "pluralName": "fashion-wholesale-sections",
+    "displayName": "Fashion_Wholesale_Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Fashion_Tab_Name": {
+      "type": "string"
+    },
+    "Fashion_wholesale_title": {
+      "type": "string"
+    },
+    "Fashion_Wholesale_Description": {
+      "type": "text"
+    },
+    "Fashion_wholesale_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

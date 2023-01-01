@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brick_mortor_tabs",
+  "info": {
+    "singularName": "brick-mortor-tab",
+    "pluralName": "brick-mortor-tabs",
+    "displayName": "Brick_Mortor_Tabs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Brick_Mortar_Tab_Title": {
+      "type": "string"
+    },
+    "Brick_Mortar_Title": {
+      "type": "text"
+    },
+    "Brick_Mortar_Description": {
+      "type": "richtext"
+    },
+    "Brick_Mortar_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

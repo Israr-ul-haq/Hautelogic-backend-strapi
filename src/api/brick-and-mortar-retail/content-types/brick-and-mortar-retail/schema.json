@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "brick_and_mortar_retails",
+  "info": {
+    "singularName": "brick-and-mortar-retail",
+    "pluralName": "brick-and-mortar-retails",
+    "displayName": "Brick and Motar Retail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero_Title": {
+      "type": "string"
+    },
+    "Hero_SubTitle": {
+      "type": "text"
+    },
+    "Hero_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Contact_Section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    }
+  }
+}

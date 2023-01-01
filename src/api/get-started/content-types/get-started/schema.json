@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "get_starteds",
+  "info": {
+    "singularName": "get-started",
+    "pluralName": "get-starteds",
+    "displayName": "GetStarted"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "GetStartedTitle": {
+      "type": "string"
+    },
+    "GetStartedDescription": {
+      "type": "text"
+    }
+  }
+}

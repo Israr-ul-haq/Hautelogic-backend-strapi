@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "solutions",
+  "info": {
+    "singularName": "solution",
+    "pluralName": "solutions",
+    "displayName": "SolutionOffering",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerPrimaryText": {
+      "type": "string"
+    },
+    "BannerSecondaryText": {
+      "type": "text"
+    },
+    "BannerButtonText": {
+      "type": "string"
+    },
+    "WholeSaleTitle": {
+      "type": "string"
+    },
+    "WholeSaleDescription": {
+      "type": "text"
+    },
+    "WholeSaleButtonText": {
+      "type": "string"
+    },
+    "OnlineRetailTitle": {
+      "type": "string"
+    },
+    "OnlineRetailDescription": {
+      "type": "text"
+    },
+    "MortarRetailTitle": {
+      "type": "string"
+    },
+    "MortarRetailDescription": {
+      "type": "text"
+    },
+    "MortarRetailButtonText": {
+      "type": "string"
+    },
+    "ApparelManufacturingTitle": {
+      "type": "string"
+    },
+    "ApparelManufacturingDescription": {
+      "type": "text"
+    },
+    "ApparelManufacturingButtonText": {
+      "type": "string"
+    }
+  }
+}

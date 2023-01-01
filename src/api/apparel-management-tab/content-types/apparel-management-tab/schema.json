@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apparel_management_tabs",
+  "info": {
+    "singularName": "apparel-management-tab",
+    "pluralName": "apparel-management-tabs",
+    "displayName": "Apparel Management Tabs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Apparel_Management_Tab_Title": {
+      "type": "string"
+    },
+    "Apparel_Management_Title": {
+      "type": "string"
+    },
+    "Apparel_Management_Description": {
+      "type": "richtext"
+    },
+    "Apparel_Management_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

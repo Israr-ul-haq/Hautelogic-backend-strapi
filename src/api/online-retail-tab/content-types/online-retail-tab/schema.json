@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "online_retail_tabs",
+  "info": {
+    "singularName": "online-retail-tab",
+    "pluralName": "online-retail-tabs",
+    "displayName": "Online_Retail_Tabs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Online_Retail_Tab_Title": {
+      "type": "string"
+    },
+    "Online_Retail_Title": {
+      "type": "string"
+    },
+    "Online_Retail_Description": {
+      "type": "richtext"
+    },
+    "Online_Retail_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_tabs",
+  "info": {
+    "singularName": "blog-tab",
+    "pluralName": "blog-tabs",
+    "displayName": "Blog Tabs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blog_Title": {
+      "type": "string"
+    },
+    "Blog_Description": {
+      "type": "text"
+    },
+    "Blog_Content": {
+      "type": "richtext"
+    },
+    "Blog_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Hero_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Hero_Title": {
+      "type": "string"
+    },
+    "Hero_SubTitle": {
+      "type": "string"
+    },
+    "Contact_Section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Blog_Title"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "seoTitle": {
+      "type": "string"
+    }
+  }
+}

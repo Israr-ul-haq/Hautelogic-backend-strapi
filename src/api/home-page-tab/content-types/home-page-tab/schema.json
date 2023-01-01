@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_tabs",
+  "info": {
+    "singularName": "home-page-tab",
+    "pluralName": "home-page-tabs",
+    "displayName": "HomePage Tabs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tab_Name": {
+      "type": "string"
+    },
+    "Tab_Title": {
+      "type": "string"
+    },
+    "Tab_Description": {
+      "type": "text"
+    },
+    "Tab_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

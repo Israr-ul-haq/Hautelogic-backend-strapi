@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "fashion_wholesales",
+  "info": {
+    "singularName": "fashion-wholesale",
+    "pluralName": "fashion-wholesales",
+    "displayName": "Fashion_Wholesale",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero_Title": {
+      "type": "string"
+    },
+    "Hero_SubTitle": {
+      "type": "text"
+    },
+    "Hero_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Contact_Section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    }
+  }
+}
